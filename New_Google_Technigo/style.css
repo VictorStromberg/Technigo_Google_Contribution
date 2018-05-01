@@ -1,0 +1,98 @@
+<!-- YOUR CODE GOES HERE: -->
+
+body{
+  }
+
+h1 {
+  font-family: "Microsoft Sans Serif", Arial, sans-serif;
+  font-size: 60px;
+  word-spacing: -15px;
+  text-shadow: 1px 1px 1px grey;
+  font-variant: inherit;
+  font-weight: 550;
+  line-height: 30px;
+  font-style: normal;
+  margin-top: 260px
+}
+
+body {
+  background-color: #f2f2f2;
+}
+
+main { margin-bottom: 300%;
+}
+
+.floating-menu {
+  font-family: "Microsoft Sans Serif", Arial, sans-serif;
+  background: lightgrey;
+  border: 1px solid darkgrey;
+  padding: 20px;;
+  width: 300px;
+  z-index: 100;
+  opacity: 0.9;
+  position: fixed;
+  bottom: 350px;
+  right: 20px
+
+
+}
+.floating-menu a,
+.floating-menu h3 {
+  font-size: 0.9em;
+  display: block;
+  margin: 0.09em;
+  color: darkgrey;
+}
+
+.search{
+  width: 100%;
+  position: relative;
+}
+
+.submit{
+  background-color: lightgrey;
+  font-family: "Microsoft Sans Serif", Arial, sans-serif;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 2px;
+  transition-duration:0.4s;
+  cursor: pointer;
+}
+.submit1{
+  background-color: lightgrey;
+  font-family: "Microsoft Sans Serif", Arial, sans-serif;
+  color: white;
+  border: 2px solid #4885ed;
+  }
+.submit1:hover {
+  font-family: "Microsoft Sans Serif", Arial, sans-serif;
+  background-color: #4885ed;
+  color: black;
+}
+.submit2{
+  font-family: "Microsoft Sans Serif", Arial, sans-serif;
+  background-color: lightgrey;
+  color: white;
+  border: 2px solid #db3236;
+  }
+.submit2:hover {
+  font-family: "Microsoft Sans Serif", Arial, sans-serif;
+  background-color: #db3236;
+  color: black;
+}
+
+.floating-menu1 {
+  background-color: #f2f2f2;
+  padding: 10px;
+  width: 600px;
+  box-sizing: content-box;
+  opacity: 0.9;
+  position: fixed;
+  bottom: 50px;
+  left: 675px;
+}
